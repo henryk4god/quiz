@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quiz Funnel Builder</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+<header class="header">
+<h1>Quiz Funnel Builder</h1>
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<input id="quizTitle" placeholder="Quiz Title">
+
+<button id="loadTemplate" class="btn-secondary">
+Load Template
+</button>
+
+</div>
+
+<div class="card">
+
+<h2>Questions</h2>
+
+<div id="questionsContainer"></div>
+
+<button id="addQuestionBtn" class="btn-primary">
+Add Question
+</button>
+
+</div>
+
+<div class="card">
+
+<button id="saveQuizBtn" class="btn-primary">
+Save Quiz
+</button>
+
+<div id="resultBox"></div>
+
+<button id="shareBtn" class="btn-secondary">
+Copy Quiz Link
+</button>
+
+</div>
+
+</div>
+
+<script src="js/builder.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

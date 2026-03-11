@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quiz</title>
+
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+<h1 id="quizTitle"></h1>
+
+<div class="container">
+
+<div class="card">
+
+<div id="quizBox"></div>
+
+<button id="nextBtn" class="btn-primary">
+Next
+</button>
+
+</div>
+
+<div class="card" id="leadCard" style="display:none">
+
+<input id="leadName" placeholder="Name">
+<input id="leadEmail" placeholder="Email">
+
+<button id="submitLeadBtn" class="btn-primary">
+See Result
+</button>
+
+</div>
+
+<div class="card" id="resultCard" style="display:none">
+
+<div id="resultBox"></div>
+
+</div>
+
+</div>
+
+<script src="js/quiz.js"></script>
+
+</body>
+</html>
