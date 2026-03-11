@@ -1,0 +1,47 @@
+:root{
+--primary-color:#2563eb;
+--bg-color:#f4f6fb;
+--text-color:#333;
+}
+
+body{
+font-family:Poppins;
+background:var(--bg-color);
+padding:20px;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+}
+
+.card{
+background:white;
+padding:20px;
+margin-bottom:20px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.btn-primary{
+background:var(--primary-color);
+color:white;
+padding:10px 15px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+.btn-secondary{
+background:#eee;
+padding:8px 12px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+.question{
+border:1px solid #eee;
+padding:10px;
+margin-top:10px;
+}
